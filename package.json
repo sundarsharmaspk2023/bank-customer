@@ -1,6 +1,6 @@
 {
   "homepage": "http://sundarsharmaspk2023.github.io/bank-customer",
-  "name": "beneficiary-management",
+  "name": "bank-customer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
