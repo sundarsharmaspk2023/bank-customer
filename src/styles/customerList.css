@@ -1,0 +1,53 @@
+.table-container {
+  width: 100%;
+  margin-top: 20px;
+  overflow-x: auto; /* Enable horizontal scrolling if table content exceeds container width */
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style for table headers */
+th {
+  flex-grow: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+/* Style for table cells */
+td {
+  flex-grow: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center; 
+}
+
+/* Style for add button */
+.add-button {
+  /* Make button take up full width */
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for action buttons */
+.action-button {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  align-self: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for action buttons */
+.action-button:hover {
+  background-color: #218838;
+}
